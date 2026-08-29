@@ -75,3 +75,38 @@ PAYMENTS:<br>
 Alex - $1000.00$<br>
 Bob - $1720.00$<br>
 Maria - $1200.00$
+
+### <ins>Exercise02 - Polymorphism</ins>
+
+#### Write a program to read the data for N products (N provided by the user). At the end, display the price tag for each product in the same order in which they were entered.
+
+#### Every product has a name and a price. Imported products have a customs fee, while used products have a manufacturing date.
+
+#### These specific data must be added to the price tag as shown in the example. For imported products, the customs fee must be added to the product's final price.
+
+#### Please implement the program according to the design shown on the side.
+
+<img src="Images/Exercise02-Polymorphism-UML.png" alt="Exercise02-Polymorphism-UML">
+
+#### Example:
+
+Enter the number of products: <strong>3</strong><br>
+Product #1 data:<br>
+Common, used or imported (c/u/i)? <strong>i</strong><br>
+Name: <strong>Tablet</strong><br>
+Price: <strong>260.00</strong><br>
+Customs fee: <strong>20.00</strong><br>
+Product #2 data:<br>
+Common, used or imported (c/u/i)? <strong>c</strong><br>
+Name: <strong>Notebook</strong><br>
+Price: <strong>1100.00</strong><br>
+Product #3 data:<br>
+Common, used or imported (c/u/i)? <strong>u</strong><br>
+Name: <strong>Iphone</strong><br>
+Price: <strong>400.00</strong><br>
+Manufacture date (DD/MM/YYYY): <strong>15/03/2017</strong><br>
+
+PRICE TAGS:<br>
+Tablet  $280.00 (Customs fee: $20.00)<br>
+Notebook $1100.00<br>
+Iphone (used) $400.00 (Manufacture date: 15/03/2017)
