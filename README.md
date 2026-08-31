@@ -110,3 +110,26 @@ PRICE TAGS:<br>
 Tablet  $280.00 (Customs fee: $20.00)<br>
 Notebook $1100.00<br>
 Iphone (used) $400.00 (Manufacture date: 15/03/2017)
+
+### <ins>Exercise03 - Abstract Methods</ins>
+
+#### Write a program that reads the data of N shapes (where N is provided by the user) and then displays the areas of these shapes in the same order in which they were entered.
+
+<img src="Images\Exercise03 - Abstract Methods.png" alt="Exercise03 - Abstract Methods">
+
+#### Example:
+
+Enter the number of shapes: <strong>2</strong><br>
+Shape #1 data:<br>
+Rectangle or Circle (r/c)? <strong>r</strong><br>
+Color (Black/Blue/Red): <strong>Black</strong><br>
+Width: <strong>4.0</strong><br>
+Height: <strong>5.0</strong><br>
+Shape #2 data:<br>
+Rectangle or Circle (r/c)? <strong>c</strong><br>
+Color (Black/Blue/Red): <strong>Red</strong><br>
+Radius: <strong>3.0</strong><br>
+
+SHAPE AREAS:<br>
+20.00<br>
+28.27
