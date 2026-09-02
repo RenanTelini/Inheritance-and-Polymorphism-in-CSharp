@@ -133,3 +133,51 @@ Radius: <strong>3.0</strong><br>
 SHAPE AREAS:<br>
 20.00<br>
 28.27
+
+### <ins>Exercise04 - Abstract Methods</ins>
+
+#### Write a program to read the data of N taxpayers (where N is provided by the user), who can be either individuals or companies, and then display the amount of tax paid by each taxpayer, as well as the total amount of tax collected.
+
+#### The data for individuals consists of: name, annual income, and healthcare expenses. The data for companies consists of: name, annual income, and number of employees.
+
+#### The tax calculation rules are as follows:
+
+#### <strong>Individual</strong>: Individuals with an annual income below 20,000.00 pay 15% in taxes. Individuals with an annual income of 20,000.00 or more pay 25% in taxes. If the individual has healthcare expenses, 50% of those expenses are deducted from the tax amount.
+
+#### Example: An individual with an annual income of 50,000.00 and 2,000.00 in healthcare expenses would pay:
+
+#### (50,000 * 25%) - (2,000 * 50%) = 11,500.00
+
+#### <strong>Company:</strong> Companies pay 16% in taxes. However, if the company has more than 10 employees, it pays 14% in taxes.
+
+#### Example: A company with an annual income of 400,000.00 and 25 employees would pay:
+
+#### 400,000 * 14% = 56,000.00
+
+<img src="Images\Exercise04 - Abstract Methods - UML.png" alt="Exercise04 - Abstract Methods">
+
+#### Example:
+
+Enter the number of tax payers: <strong>3</strong><br>
+Tax payer #1 data:<br>
+Individual or company (i/c)? <strong>i</strong><br>
+Name: <strong>Alex</strong><br>
+Anual income: <strong>50000.00</strong><br>
+Health expenditures: <strong>2000.00</strong><br>
+Tax payer #2 data:<br>
+Individual or company (i/c)? <strong>c</strong><br>
+Name: <strong>SoftTech</strong><br>
+Anual income: <strong>400000.00</strong><br>
+Number of employees: <strong>25</strong><br>
+Tax payer #3 data:<br>
+Individual or company (i/c)? <strong>i</strong><br>
+Name: <strong>Bob</strong><br>
+Anual income: <strong>120000.00</strong><br>
+Health expenditures: <strong>1000.00</strong><br>
+
+TAXES PAID:<br>
+Alex: $11,500.00<br>
+SoftTech: $56,000.00<br>
+Bob: $29,500.00<br>
+
+TOTAL TAXES: $97,000.00
